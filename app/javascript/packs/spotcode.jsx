@@ -1,9 +1,10 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
+import App from '../app';
 
 document.addEventListener('DOMContentLoaded', () => {
   ReactDOM.render(
-    <div>Hello Soptcode :)</div>,
+    <App/>,
     document.getElementById('root'),
   )
 })
