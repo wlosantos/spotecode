@@ -1,5 +1,6 @@
-#root {
-  background-image: image_url('bg2.jpg');
+html, body, #root {
+  background-image: image_url('mic.png');
   background-size: cover;
   background-position: center center;
+  background-attachment:fixed;
 }
